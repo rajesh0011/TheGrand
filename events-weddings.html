@@ -569,10 +569,7 @@ Best place to learn about the lobby theme samunder manthan special thanks to son
        <button type="button" class="close close-bt-pop btn-close" data-bs-dismiss="modal" aria-label="Close" style="padding: 5px;">
         </button>
         <img src="img/new-popup-banneer.webp" alt="spa" class="w-100" style="opacity:1;">
-        <div class="py-3 text-center">
-            <a href="tel:7428080773" class="btn book-now-hero-1" style="background-color: #000; color:#fff;">Book Now : 7428080773</a>
-        </div>
-        
+       
       </div>
     </div>
   </div>
@@ -729,35 +726,7 @@ Best place to learn about the lobby theme samunder manthan special thanks to son
 
 
   <script type="text/javascript">
-  function frmsubmit(){
-	  //var fname=$("#frmeventform")
-		var fname = document.frmeventform.fname;
-		var lname = document.frmeventform.lname;
-		var email = document.frmeventform.email;
-		var contact = document.frmeventform.phone;
-		var checkindate = document.frmeventform.checkindate;
-		var checkoutdate = document.frmeventform.checkoutdate;
-		var event_type = document.frmeventform.event_type;
-		var noofguest = document.frmeventform.noofguest;
-		var message = document.frmeventform.message;
-		var name=fname.value+" "+lname.value;
-		$.ajax({
-				type: "POST",
-				url: 'https://www.thegrandnewdelhi.com/event_mail.php',
-				data: {  name: name,email: email.value,phone: contact.value,checkindate: checkindate.value,checkoutdate: checkoutdate.value,message: message.value,event_type: event_type.value,noofguest: noofguest.value },
-				cache: false,
-
-				success: function (data) {
-					alert(data);
-/* 					var json_str = JSON.parse(data);
-				alert(json_str.message);
-				document.forms["info_form"].reset(); */
-				return false;
-
-				}
-			});
-		return false;
-  }
+  
     $( "#checkindate" ).datepicker({
           numberOfMonths: 2,
            showCurrentAtPos: 0,
