@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Offers in Delhi - The Grand New Delhi
+</title>
+    <meta name="description" content="Discover unbeatable hotel offers in Delhi at The Grand New Delhi. Enjoy luxurious accommodations, world-class amenities, and exclusive deals designed for a memorable stay. Book now to experience elegance and comfort in the heart of Delhi.
+" />
+
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- <link rel="stylesheet" href="css/fonts.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+<style type="text/css">
+        .latest-news .caption{
+            min-height: auto;
+        }
+    </style>
+    
+</head>
+
+<body id="about-page">
+  
+
+<header>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      
+      
+      <div class="site-navbar site-navbar-target js-sticky-header">
+        
+        <div class="site-navbar site-navbar-target">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-1">
+                <div class="my-0 site-logo">
+                    <a href="index">
+                        <img src="img/footer-logo.png" class="logo" alt="The Grand logo" />
+                    </a>
+                </div>
+              </div>
+              <div class="mobile-book-now">
+                <a href="https://reservations.thegrandnewdelhi.com/book/dates-of-stay" class="nav-link header-book-now" id="find-reservation" target="_blank">Book Now</a>
+              </div>
+              <div class="col-11">
+                <nav class="site-navigation text-right" role="navigation">
+                  <div class="container">
+                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                        <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                            <span class="icon-menu h3"></span>
+                        </a>
+                    </div>
+  
+                    <ul class="site-menu main-menu d-lg-block d-none js-clone-nav">
+                      <li class="active"><a href="accommodation" class="nav-link">Accommodation</a></li>
+                      <li><a href="about" class="nav-link">About</a></li>
+                      <li><a href="offers" class="nav-link">Offers</a></li>
+                      <li><a href="events-weddings" class="nav-link">Events & Weddings</a></li>
+                      <li><a href="dining" class="nav-link">Dining</a></li>
+                      <li><a href="gallery" class="nav-link">Gallery</a></li>
+                      <li><a href="facilities" class="nav-link">Facilities</a></li>
+                      <li><a href="contact" class="nav-link">Contact</a></li>
+                      <li><a href="https://reservations.thegrandnewdelhi.com/book/dates-of-stay" class="nav-link header-book-now" id="find-reservation" target="_blank">Book Now</a></li>
+                      
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    
+  <section class="inner-banner-area rooms-hero">
+    <div class="container">
+      <div class="contact-banner">
+        <div class="text-center">
+          <p class="inner-banner-heading">Our Offers</p>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">offers</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="booking-form-section" id="booking-engine">
+        <article class="container">
+          <div class="enqiure-inner">
+            <div class="row">
+               <div class="custom-form-outer-div">
+                  <span>Check In Date</span>
+                  <div class="input-group date" data-provide="datepicker">
+                     <input type="text" class="form-control" id="checkdate1" placeholder="Check In Date" name="fromdate" readonly="">
+                  </div>
+               </div>
+               <div class="custom-form-outer-div">
+                  <span>Check Out Date</span>
+                  <div class="input-group date" data-provide="datepicker">
+                     <input type="text" class="form-control" id="checkdate2" placeholder="Check Out Date" name="todate" readonly="">
+                  </div>
+               </div>
+            
+               <div class="custom-form-outer-div">
+                <span>Room</span>
+                <select class="form-select" id="roomId" aria-label="Default select example">
+                   <option value="1" selected>1 Room</option>
+                   <option value="2">2 Room</option>
+                   <option value="3">3 Room</option>
+                   <option value="4">4 Room</option>
+                </select>
+             </div>
+               <div class="custom-form-outer-div">
+                  <span>Adults</span>
+                  <select class="form-select" id="adultId" aria-label="Default select example">
+                     <option value="1" selected>1 Adults</option>
+                     <option value="2">2 Adults</option>
+                     <option value="3">3 Adults</option>
+                     <option value="4">4 Adults</option>
+                  </select>
+               </div>
+              
+               <div class="custom-form-outer-div btn-div">
+                  <span>&nbsp;</span>
+                  <button type="submit" class="btn btn-primary w-100" onclick="checkavailability();">Check Availability</button>
+               </div>
+            </div>
+         </div>
+        </article>
+    </section>
+
+<section class="offer-page-section">
+            <div class="container">
+                <div class="section-intro text-center pb-80px">
+                    <h1 class="inner-section-main-heading">Our Offers</h1>
+                </div>
+                <div class="row justify-content-center">
+
+
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/t-new-offer-1.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="javascript:void(0);">New Year Eve</a>
+                                        </div>
+                                        
+                                        <div class="offer-cta-buttons">
+                                            <a href="tel:7428080773" class="btn offer-book-now">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/t-new-offer-2.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="javascript:void(0);">New Year Brunch</a>
+                                        </div>
+                                        
+                                        <div class="offer-cta-buttons">
+                                            <a href="tel:7428080773" class="btn offer-book-now">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/t-new-offer-3.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="javascript:void(0);">New Year Eve Party Package</a>
+                                        </div>
+                                        
+                                        <div class="offer-cta-buttons">
+                                            <a href="tel:7428080773" class="btn offer-book-now">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/t-new-offer-4.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="javascript:void(0);">2025 Grand Celebrations!</a>
+                                        </div>
+                                        
+                                        <div class="offer-cta-buttons">
+                                            <a href="tel:7428080773" class="btn offer-book-now">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/the-grand-loyalty.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">The Grand Loyalty</a>
+                                        </div>
+                                        <div class="txt2">The Grand Loyalty Package offers exclusive savings with up to 30% off on room rates, including a complimentary welcome amenity. 
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now" data-bs-toggle="modal" data-bs-target="#offer-contact-us">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="3s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/the-grand-romance.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">The Grand Romance Getaway</a>
+                                        </div>
+                                        <div class="txt2">Enjoy this package that includes room charges with allocations for breakfast, dinner, and hi-tea. Guests also enjoy a complimentary bottle of house wine and welcome amenities.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now" data-bs-toggle="modal" data-bs-target="#offer-contact-us">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/the-grand-family-hideaway.webp" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">The Grand Family Hideaway</a>
+                                        </div>
+                                        <div class="txt2"> Enjoy a family outing with complimentary breakfast, welcome amenities, and lunch/dinner for two adults and two kids under 12. Enjoy a complimentary extra bed and 20% off on food and non-alcoholic beverages.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now" data-bs-toggle="modal" data-bs-target="#offer-contact-us">Contact Us</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+    <footer class="bottom col-xs-12 foot_block" id="footer">
+        <div class="container">
+            <div class="row comm_cont justify-content-center">
+                <div class="col-lg-5 align-self-center">
+                    <div class="footer-logo">
+                        <a href="index" class="f-logo">
+                            <img src="img/footer-logo.png" alt="" class="footer-logo-img" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-right-items">
+                        <div class="add_head">
+                            <h4 class="brand-name-footer">The Grand New Delhi</h4>
+                            <p class="footer-address">Nelson Mandela Marg, Pocket 4, Vasant Kunj, New Delhi, Delhi - 110070</p>
+                        </div>
+                        <div class="address_block">
+                                <div class="add_cont">
+                                    <ul class="">
+                                        <li>
+                                            <div class="footer-detail">
+                                                <span>
+                                                    <a href="mailto:reservation@thegrandnewdelhi.com">reservation@thegrandnewdelhi.com</a> &nbsp;&nbsp;| &nbsp;&nbsp; <a href="tel:+911147661200">+91-1147 66 1200</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                        <div class="social_block">
+                            <div class="social_head"><p>Get In Touch</p></div>
+                            <div class="social_cont">
+                                <div class="socialIcon">
+                                    <a class="social-fb" href="https://www.tripadvisor.in/Hotel_Review-g304551-d304415-Reviews-The_Grand_New_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html" target="_blank">
+                                        <img src="img/tripadvisor.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="http://instagram.com/thegrandnewdelhi" target="_blank">
+                                        <img src="img/instagram.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="https://www.facebook.com/TheGrandNewDelhi" target="_blank">
+                                        <img src="img/facebook.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="https://twitter.com/thegranddelhi" target="_blank">
+                                        <img src="img/twitter.png" alt="" class="footer-social" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 footer-row footer_navbar_wrapper">
+                    <div class="clearfix">
+                        <nav class="footer_navbar scroll">
+                            <ul class="nav navbar-nav">
+                                <li class="second-li"><a href="index">Home</a></li>
+                                <li class="second-li"><a href="about">About Us</a></li>
+                                <li class="second-li"><a href="delhi-service-apartments">Service Apartments</a></li>
+                                <li class="second-li"><a href="delhi-banquet-halls">Banquet Halls</a></li>
+                                <li class="second-li"><a href="delhi-bar">Bar</a></li>
+                                <li class="second-li"><a href="delhi-spa">Spa</a></li>
+                                <li class="second-li"><a href="gallery">Gallery</a></li>
+                                <li class="second-li"><a href="awards">Awards</a></li>
+                                <li class="second-li"><a href="offers">Offers</a></li>
+                                <li class="second-li"><a href="blog">Blog</a></li>
+                                <li class="second-li"><a href="disclaimer">Disclaimer</a></li>
+                                <li class="second-li"><a href="contact">Contact Us</a></li>
+                                <li class="second-li"><a href="covid-19-update">Covid 19 Updates </a></li>
+                                <li class="second-li"><a href="https://reservations.thegrandnewdelhi.com/book/modify-booking?_ga=2.42439077.1896866101.1724918258-1722163107.1724766516&_gl=1*5ogtn9*_gcl_au*NzYzMTE3ODAxLjE3MjQ3NjY1Mzk.*_ga*MTcyMjE2MzEwNy4xNzI0NzY2NTE2*_ga_HYT03NQPJN*MTcyNDkxODI1OC4yLjEuMTcyNDkxODUwOC4wLjAuMA..*_ga_DMYPKC176S*MTcyNDkxODI1OC4yLjEuMTcyNDkxODUwOC42MC4wLjA." target="_blank">Find Reservation</a></li>
+                                <li class="second-li"><a href="#">Sitemap</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 footer-row mt-4">
+                    <div class="clearfix">
+                        <div class="text-center">
+                            
+                            <p class="text-center">Copyright © 2024 All Rights Reserved. Powered By CIN Universe.</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/validate.js"></script>
+
+    <script type="text/javascript">
+    setTimeout(function(){
+   $("#myModa223").modal('show');
+  }, 2000);  
+</script>
+
+ <div class="modal fade" id="myModa223" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-content-ads">
+      <div class="modal-body" style="padding: 0rem;">
+       <button type="button" class="close close-bt-pop btn-close" data-bs-dismiss="modal" aria-label="Close" style="padding: 5px;">
+        </button>
+        <img src="img/new-popup-banneer.webp" alt="spa" class="w-100" style="opacity:1;">
+        <div class="py-3 text-center">
+            <a href="tel:7428080773" class="btn book-now-hero-1" style="background-color: #000; color:#fff;">Book Now : 7428080773</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="offer-contact-us" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-body">
+                      <h5 class="modal-title">Contact Us</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="fixed-form fixed">
+                          <form method="post" action="#" name="offerfrm" onsubmit="return validate_oform();">
+                              <div class="form row">
+                                  
+                                  <div class="col-12 form-group">
+                                    <label>Name*</label>
+                                      <input type="text" class="form-control"  name="name"/>
+                                  </div>
+                                  <div class="col-12 form-group">
+                                    <label>Phone*</label>
+                                      <input type="phone" class="form-control" name="phone"/>
+                                  </div>
+                                  <div class="col-12 form-group">
+                                    <label>Email*</label>
+                                      <input type="email" class="form-control" name="email"/>
+                                  </div>
+                                  <div class="col-12 form-group">
+                                    <label>Checkin</label>
+                                      <input type="text" class="form-control" id="checkindate-1" placeholder="Checkin" name="checkindate" readonly="">
+                                  </div>
+                                  <div class="col-12 form-group">
+                                    <label>Checkout*</label>
+                                      <input type="text" class="form-control" id="checkoutdate-1" placeholder="Checkout" name="checkoutdate" readonly="">
+                                  </div>
+                                  <div class="col-12 formFooter">
+                                      <button type="submit" name="Submit" value="Submit" class="btn mx-auto">Submit</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+<script type="text/javascript">
+    $( "#checkindate-1" ).datepicker({
+          numberOfMonths: 2,
+           showCurrentAtPos: 0,
+           dateFormat: 'dd/mm/y',
+           minDate: 0,
+           onSelect: function(selectedDate){
+            var d11 = $('#checkindate-1').datepicker('getDate');
+            d11.setDate(d11.getDate() + 1); 
+            $('#checkoutdate-1').datepicker('option', 'minDate', d11,{autoOpen: true});
+            $('#checkoutdate-1').datepicker('setDate', d11);
+          }
+        });
+        
+        $('#checkindate-1').datepicker({
+          minDate: new Date(),
+          numberOfMonth: 2,
+        });
+
+        $('#checkoutdate-1').datepicker({
+          minDate: new Date(),
+          dateFormat: 'dd/mm/y',
+        });
+
+        if($('#checkindate-1').length) {
+            $('#checkindate-1').datepicker('setDate', new Date());
+            var d22 = $('#checkindate-1').datepicker('getDate');
+            d22.setDate(d22.getDate() + 1);
+            $('#checkoutdate-1').datepicker('option', {numberOfMonths: 2,
+              showCurrentAtPos: 1,}, 'minDate', d22);
+            $('#checkoutdate-1').datepicker( 'setDate', d22);
+        }
+  </script>
+   
+</body>
+
+</html>

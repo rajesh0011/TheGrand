@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurants in Delhi | Fine Dining | 5 Star Luxury Restaurants | Vasant Kunj | The Grand New Delhi</title>
+    <meta name="description" content="Experience fine dining at The Grand New Delhi's 5-star luxury restaurants in Vasant Kunj. Savor gourmet cuisine, elegant ambiance, and exceptional service for an unforgettable culinary journey." />
+   
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- <link rel="stylesheet" href="css/fonts.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+<!-- End Google Tag Manager -->    <link href="css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+</head>
+
+<body id="dining-page">
+ 
+
+<header>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      
+      
+      <div class="site-navbar site-navbar-target js-sticky-header">
+        
+        <div class="site-navbar site-navbar-target">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-1">
+                <div class="my-0 site-logo">
+                    <a href="index">
+                        <img src="img/footer-logo.png" class="logo" alt="The Grand logo" />
+                    </a>
+                </div>
+              </div>
+              <div class="mobile-book-now">
+                <a href="https://reservations.thegrandnewdelhi.com/book/dates-of-stay" class="nav-link header-book-now" id="find-reservation" target="_blank">Book Now</a>
+              </div>
+              <div class="col-11">
+                <nav class="site-navigation text-right" role="navigation">
+                  <div class="container">
+                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                        <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                            <span class="icon-menu h3"></span>
+                        </a>
+                    </div>
+  
+                    <ul class="site-menu main-menu d-lg-block d-none js-clone-nav">
+                      <li class="active"><a href="accommodation" class="nav-link">Accommodation</a></li>
+                      <li><a href="about" class="nav-link">About</a></li>
+                      <li><a href="offers" class="nav-link">Offers</a></li>
+                      <li><a href="events-weddings" class="nav-link">Events & Weddings</a></li>
+                      <li><a href="dining" class="nav-link">Dining</a></li>
+                      <li><a href="gallery" class="nav-link">Gallery</a></li>
+                      <li><a href="facilities" class="nav-link">Facilities</a></li>
+                      <li><a href="contact" class="nav-link">Contact</a></li>
+                      <li><a href="https://reservations.thegrandnewdelhi.com/book/dates-of-stay" class="nav-link header-book-now" id="find-reservation" target="_blank">Book Now</a></li>
+                      
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+  <section class="inner-banner-area rooms-hero">
+    <div class="container">
+      <div class="contact-banner">
+        <div class="text-center">
+          <h1 class="inner-banner-heading">Dining</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Dining</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="booking-form-section" id="booking-engine">
+        <article class="container">
+          <div class="enqiure-inner">
+            <div class="row">
+               <div class="custom-form-outer-div">
+                  <span>Check In Date</span>
+                  <div class="input-group date" data-provide="datepicker">
+                     <input type="text" class="form-control" id="checkdate1" placeholder="Check In Date" name="fromdate" readonly="">
+                  </div>
+               </div>
+               <div class="custom-form-outer-div">
+                  <span>Check Out Date</span>
+                  <div class="input-group date" data-provide="datepicker">
+                     <input type="text" class="form-control" id="checkdate2" placeholder="Check Out Date" name="todate" readonly="">
+                  </div>
+               </div>
+            
+               <div class="custom-form-outer-div">
+                <span>Room</span>
+                <select class="form-select" id="roomId" aria-label="Default select example">
+                   <option value="1" selected>1 Room</option>
+                   <option value="2">2 Room</option>
+                   <option value="3">3 Room</option>
+                   <option value="4">4 Room</option>
+                </select>
+             </div>
+               <div class="custom-form-outer-div">
+                  <span>Adults</span>
+                  <select class="form-select" id="adultId" aria-label="Default select example">
+                     <option value="1" selected>1 Adults</option>
+                     <option value="2">2 Adults</option>
+                     <option value="3">3 Adults</option>
+                     <option value="4">4 Adults</option>
+                  </select>
+               </div>
+              
+               <div class="custom-form-outer-div btn-div">
+                  <span>&nbsp;</span>
+                  <button type="submit" class="btn btn-primary w-100" onclick="checkavailability();">Check Availability</button>
+               </div>
+            </div>
+         </div>
+        </article>
+    </section>
+    <section class="section-margin section-margin--small">
+    <div class="container">
+        <div class="section-intro text-center pb-80px">
+            <h2 class="inner-section-main-heading">Indulge in a Luxurious and Delightful Private Dining in Delhi</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="cta-box-content text-center">
+              <!-- <h3 class="cta-heading mb-4">Celebrate Precious Moments at Our Venues In Vasant Kunj</h3> -->
+                <p>The Grand New Delhi's restaurant provides a unique experience of private dining in Delhi, with a variety of scrumptious cuisines ranging from authentic Chinese to Italian to Continental. Located in the vibrant city and close to Aerocity, the menus of all our restaurants at our elegant 5-star hotel have been carefully prepared by our skilled chefs to offer the best fine dining experiences.</p>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+<section class="home-mid-sec">
+  <div class="container-fluid p-0">
+    <div class="row repeated-block">
+      <div class="col-lg-5 align-self-center text-column">
+        <div class="text-box-block">
+          <h2 class="text-block-title">
+           DKK - Dilli Kanteen Kitchen
+          </h2>
+          <p>Inspired by the Canteens of the World, Dilli Kanteen Kitchen is a vision of incorporating global cuisine and indigenous cooking techniques. Experience the most perfect private dining in Delhi.</p>
+          <p><strong>DKK - Dilli Kanteen Kitchen</strong> </p>
+          <p><strong>Timings:</strong> 6:30 AM - 11:30 PM</p>
+          <p><strong>Kindly call us at +91 11 4766 1200 for more information.</strong> </p>
+         
+          <p>(Subjected to change as per COVID-19 guidelines)</p>
+          <div class="text-box-btns">
+            <a href="#" class="btn explore-more-hero" data-bs-toggle="modal" data-bs-target="#reserve-your-table">Reserve your table</a>
+            <!-- <a href="#" class="btn book-now-hero" id="book-now">Explore Now</a> -->
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-7 p-0 image-column">
+        <div class="img-block">
+          <img src="img/dkk.avif" class="w-100" alt="Restaurants in Delhi" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row repeated-block">
+      <div class="col-lg-5 align-self-center text-column">
+        <div class="text-box-block">
+          <h2 class="text-block-title">
+             Cascades at The Grand New Delhi
+          </h2>
+          <p>Situated on the lobby level of the hotel, Cascades is one of the best lounges in Delhi and the place to see-and-be-seen. Guests will be delighted by the panoramic views that look out onto lush landscaped garden and beautiful water bodies. Ideal for a business engagement and friendly gatherings over the cup of tea or coffee.</p>
+
+          <p><strong>Location: </strong> Lobby level</p>
+          <p><strong>Timing:</strong> 9:00 AM - 10:30 PM</p>
+          
+          <p>(Subjected to change as per COVID-19 guidelines)</p>
+          <div class="text-box-btns">
+            <!-- <a href="#" class="btn explore-more-hero">Explore More</a> -->
+            <a href="#" class="btn book-now-hero" data-bs-toggle="modal" data-bs-target="#reserve-your-table">Reserve your table</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 p-0 image-column">
+        <div class="img-block">
+          <img src="img/cascades.avif" class="w-100" alt="Luxury Restaurants in Delhi" />
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="row repeated-block">
+      <div class="col-lg-5 align-self-center text-column">
+        <div class="text-box-block">
+          <h2 class="text-block-title">
+             GBar - The high-energy bar in New Delhi
+          </h2>
+          <p>GBar is our super-deluxe all-day lounge and cocktail bar, serving the best selection of wines, champagnes and cocktails and alcohol in Delhi with soulful music to give you an experience of your lifetime.</p>
+          <!-- <p>With its contemporary décor, an array of scrumptious finger foods and canapés, GBar is the place to unwind. Book your stay at The Grand New Delhi and enjoy the parties at one of the most happening nightclubs in New Delhi and spend your evening at our G Bar lounge.</p> -->
+
+          <p><strong>Location: </strong> Lobby level</p>
+          <p><strong>Timing:</strong> 01:00 pm - 01:00 am</p>
+          <p><strong>Kindly call us at +91 11 4766 1200 for more information.</strong> </p>
+          
+          <p>(Subjected to change as per COVID-19 guidelines)</p>
+          <div class="text-box-btns">
+            <!-- <a href="#" class="btn explore-more-hero">Explore More</a> -->
+            <a href="#" class="btn book-now-hero" data-bs-toggle="modal" data-bs-target="#reserve-your-table">Reserve your table</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 p-0 image-column">
+        <div class="img-block">
+          <img src="img/g-bar.avif" class="w-100" alt="5 Star Restaurants in Delhi" />
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="row repeated-block">
+      <div class="col-lg-5 align-self-center text-column">
+        <div class="text-box-block">
+          <h2 class="text-block-title">
+             Aqua - A Rejuvenating Pool Side Bar in New Delhi
+          </h2>
+          <p>Enjoy a relaxed al fresco experience at our Aqua Bar, at the finest 5-star hotel in New Delhi. It is one of the best poolside bars in New Delhi. Soak in the sun with a healthy continental menu served along with a wide range of tantalizing cocktails and mocktails. Experience a magical evening with your loved ones at one of the most happening and luxurious bars in Delhi during your stay at our 5-star hotel near Delhi airport.</p>
+
+          <p><strong>Location: </strong> Pool Side</p>
+          <p><strong>Timing:</strong> 10:00 AM - 9:00 PM( Temporarily Closed)</p>
+          
+          <p>(Subjected to change as per COVID-19 guidelines)</p>
+          <div class="text-box-btns">
+            <!-- <a href="#" class="btn explore-more-hero">Explore More</a> -->
+            <a href="#" class="btn book-now-hero" data-bs-toggle="modal" data-bs-target="#reserve-your-table">Reserve your table</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 p-0 image-column">
+        <div class="img-block">
+          <img src="img/aqua-bar.avif" class="w-100" alt="Fine Dining Restaurants in Delhi" />
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="testimonial5 py-5 bg-inverse">
+  <div class="container"> 
+  
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center">
+        <span class="subtitle font-weight-normal">Reviews on Us</span>
+        <h2 class="testimonial-title">Testimonials</h2>
+      </div>
+    </div>
+  
+    <div class="owl-carousel owl-theme testi5 mt-4 text-center">
+ 
+      <div class="item">
+        <div class="content">
+          <p>“It was wonderful and quite fruitful too Very good service and hospitality, would visit again !!! Atul kumar especially caught our eye in the house keeping staff with his melodious work. The food was good the appetizers delicious the staff cheerful the stay awesome and indescribable.”</p>
+          <h6 class="client-name"><span>“</span> Atul Kumar</h6>
+          <div class="rating-info-section">
+          <img src="img/Tripadvisor-Logo.png" alt="tripadvisor" class="trip-logo">
+          <div class="full-w">
+            <div class="rating-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+       
+      </div>
+      <div class="item">
+        <div class="content">
+          <p>“Very good ambiance very spacious neat and clean. Dhairaya from House Keeping who have given amazing service to me.Hotel is really Grand and amazing. Food is so delicious. I will prefer my friends to visit this place and enjoy the services. I enjoyed my stay and I am looking forward to visit this place again.”</p>
+           <h6 class="client-name"><span>“</span> Kinnary P</h6>
+           <div class="rating-info-section">
+          <img src="img/Tripadvisor-Logo.png" alt="tripadvisor" class="trip-logo">
+          <div class="full-w">
+            <div class="rating-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star text-white"></i>
+            </div>
+          </div>
+        </div>
+          </div>
+          
+      </div>
+      <div class="item">
+        <div class="content">
+          <p>“Very good service provided by sukhvir
+He is very polite and helpful nature also good attitude and smooth communication understanding the requirments and provided timely
+Hotel also very good and food is best
+Room is clean and neat everything is arranged on its own place”</p>
+           <h6 class="client-name"><span>“</span> Sameer Dhumal</h6>
+           <div class="rating-info-section">
+          <img src="img/Tripadvisor-Logo.png" alt="tripadvisor" class="trip-logo">
+          <div class="full-w">
+            <div class="rating-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+            </div>
+          </div>
+        </div>
+          </div>
+          
+      </div>
+
+      <div class="item">
+        <div class="content">
+          <p>“We only stayed for a short time. The stay was pleasant and relaxing. Food was excellent with so many choices across different cultures. The entire place was well maintained, managed and clean. The staff was very easy to work with and got all the help that I needed.”</p>
+           <h6 class="client-name"><span>“</span> David G</h6>
+           <div class="rating-info-section">
+          <img src="img/Tripadvisor-Logo.png" alt="tripadvisor" class="trip-logo">
+          <div class="full-w">
+            <div class="rating-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+            </div>
+          </div>
+        </div>
+          </div>
+         
+      </div>
+
+      <div class="item">
+        <div class="content">
+          <p>“Front office staff great service.
+Best place to learn about the lobby theme samunder manthan special thanks to sons for making this experience delightful. Thank you grand for your all hardwork & for accommodation will keep coming back”</p>
+           <h6 class="client-name"><span>“</span> Ridhima S</h6>
+           <div class="rating-info-section">
+          <img src="img/Tripadvisor-Logo.png" alt="tripadvisor" class="trip-logo">
+          <div class="full-w">
+            <div class="rating-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+            </div>
+          </div>
+        </div>
+          </div>
+          
+      </div>
+     
+   
+    </div>
+  </div>
+</section>
+
+    <footer class="bottom col-xs-12 foot_block" id="footer">
+        <div class="container">
+            <div class="row comm_cont justify-content-center">
+                <div class="col-lg-5 align-self-center">
+                    <div class="footer-logo">
+                        <a href="index" class="f-logo">
+                            <img src="img/footer-logo.png" alt="" class="footer-logo-img" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-right-items">
+                        <div class="add_head">
+                            <h4 class="brand-name-footer">The Grand New Delhi</h4>
+                            <p class="footer-address">Nelson Mandela Marg, Pocket 4, Vasant Kunj, New Delhi, Delhi - 110070</p>
+                        </div>
+                        <div class="address_block">
+                                <div class="add_cont">
+                                    <ul class="">
+                                        <li>
+                                            <div class="footer-detail">
+                                                <span>
+                                                    <a href="mailto:reservation@thegrandnewdelhi.com">reservation@thegrandnewdelhi.com</a> &nbsp;&nbsp;| &nbsp;&nbsp; <a href="tel:+911147661200">+91-1147 66 1200</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                        <div class="social_block">
+                            <div class="social_head"><p>Get In Touch</p></div>
+                            <div class="social_cont">
+                                <div class="socialIcon">
+                                    <a class="social-fb" href="https://www.tripadvisor.in/Hotel_Review-g304551-d304415-Reviews-The_Grand_New_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html" target="_blank">
+                                        <img src="img/tripadvisor.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="http://instagram.com/thegrandnewdelhi" target="_blank">
+                                        <img src="img/instagram.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="https://www.facebook.com/TheGrandNewDelhi" target="_blank">
+                                        <img src="img/facebook.png" alt="" class="footer-social" />
+                                    </a>
+                                    <a class="social-fb" href="https://twitter.com/thegranddelhi" target="_blank">
+                                        <img src="img/twitter.png" alt="" class="footer-social" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 footer-row footer_navbar_wrapper">
+                    <div class="clearfix">
+                        <nav class="footer_navbar scroll">
+                            <ul class="nav navbar-nav">
+                                <li class="second-li"><a href="index">Home</a></li>
+                                <li class="second-li"><a href="about">About Us</a></li>
+                                <li class="second-li"><a href="delhi-service-apartments">Service Apartments</a></li>
+                                <li class="second-li"><a href="delhi-banquet-halls">Banquet Halls</a></li>
+                                <li class="second-li"><a href="delhi-bar">Bar</a></li>
+                                <li class="second-li"><a href="delhi-spa">Spa</a></li>
+                                <li class="second-li"><a href="gallery">Gallery</a></li>
+                                <li class="second-li"><a href="awards">Awards</a></li>
+                                <li class="second-li"><a href="offers">Offers</a></li>
+                                <li class="second-li"><a href="blog">Blog</a></li>
+                                <li class="second-li"><a href="disclaimer">Disclaimer</a></li>
+                                <li class="second-li"><a href="contact">Contact Us</a></li>
+                                <li class="second-li"><a href="covid-19-update">Covid 19 Updates </a></li>
+                                <li class="second-li"><a href="https://reservations.thegrandnewdelhi.com/book/modify-booking?_ga=2.42439077.1896866101.1724918258-1722163107.1724766516&_gl=1*5ogtn9*_gcl_au*NzYzMTE3ODAxLjE3MjQ3NjY1Mzk.*_ga*MTcyMjE2MzEwNy4xNzI0NzY2NTE2*_ga_HYT03NQPJN*MTcyNDkxODI1OC4yLjEuMTcyNDkxODUwOC4wLjAuMA..*_ga_DMYPKC176S*MTcyNDkxODI1OC4yLjEuMTcyNDkxODUwOC42MC4wLjA." target="_blank">Find Reservation</a></li>
+                                <li class="second-li"><a href="#">Sitemap</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 footer-row mt-4">
+                    <div class="clearfix">
+                        <div class="text-center">
+                            
+                            <p class="text-center">Copyright © 2024 All Rights Reserved. Powered By CIN Universe.</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/validate.js"></script>
+
+    <script type="text/javascript">
+    setTimeout(function(){
+   $("#myModa223").modal('show');
+  }, 2000);  
+</script>
+
+ <div class="modal fade" id="myModa223" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-content-ads">
+      <div class="modal-body" style="padding: 0rem;">
+       <button type="button" class="close close-bt-pop btn-close" data-bs-dismiss="modal" aria-label="Close" style="padding: 5px;">
+        </button>
+        <img src="img/new-popup-banneer.webp" alt="spa" class="w-100" style="opacity:1;">
+       
+        
+      </div>
+    </div>
+  </div>
+</div><div class="modal fade" id="reserve-your-table" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h5 class="modal-title">Enquire Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="fixed-form fixed">
+                    <form method="post" action="dine_mail.php">
+                        <div class="form row">
+                           <!-- <div class="col-12 form-group">
+                                <input type="text" class="form-control"  name="venue" placeholder="Venue*" required />
+                            </div>-->
+                            <div class="col-12 form-group">
+                                <input type="text" class="form-control"  name="name" placeholder="Name*" required />
+                            </div>
+                            <div class="col-12 form-group">
+                                <input type="number" class="form-control" name="phone"  pattern="[7-9]{1}[0-9]{9}" placeholder="Mobile Phone*" required/>
+                            </div>
+                            <div class="col-12 form-group">
+                                <input type="email" class="form-control" name="email"  placeholder="Email*" required/>
+                            </div>
+                            <div class="col-12 form-group">
+                                <input type="number" class="form-control" placeholder="No of Guest" name="noofguest" />
+
+                            </div>
+                            <div class="col-12 form-group date-coloum">
+                              <div class="input-group date" data-provide="datepicker">
+                                <input type="text" placeholder="Date" name="date_in" class="form-control date-checkin">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                            </div>
+							<div class="col-12 form-group">
+                                      <textarea class="form-control" placeholder="Message" rows="3" name="message" required></textarea>
+							</div>
+                            <div class="col-12 formFooter">
+                                <button type="submit" name="Submit" value="Submit" class="btn mx-auto">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="js/bootstrap-datepicker.min.js "></script> -->
+</body>
+
+</html>
