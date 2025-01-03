@@ -77,7 +77,7 @@
                     <div class="clearfix">
                         <div class="text-center">
                             
-                            <p class="text-center">Copyright © 2024 All Rights Reserved. Powered By CIN Universe.</p>
+                            <p class="text-center">Copyright © <script>document.write(new Date().getFullYear());</script> All Rights Reserved. Powered By CIN Universe.</p>
                         </div>
                     </div>
                 </div>
